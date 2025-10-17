@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="90" stroke="black" stroke-width="2" fill="none"/>
+
+  <!-- Dots in upward pyramid -->
+  <!-- Row 1 (top) -->
+  <circle cx="70" cy="60" r="5" fill="black"/>
+  <circle cx="100" cy="60" r="5" fill="black"/>
+  <circle cx="130" cy="60" r="5" fill="black"/>
+
+  <!-- Row 2 -->
+  <circle cx="85" cy="85" r="5" fill="black"/>
+  <circle cx="115" cy="85" r="5" fill="black"/>
+
+  <!-- Row 3 (bottom of pyramid) -->
+  <circle cx="100" cy="110" r="5" fill="black"/>
+</svg>
