@@ -9,8 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
-    "preview": "vite preview",
-    "postinstall": "chmod +x node_module/.bin/vite"
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.5.18",
