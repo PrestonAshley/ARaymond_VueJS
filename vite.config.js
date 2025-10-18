@@ -12,7 +12,7 @@ export default defineConfig(async () => {
     plugins.push(vueDevTools());
   }
   return {
-    plugins: [vue(), vueDevTools()],
+    plugins,
     resolve: {
       alias: {
         "@": fileURLToPath(new URL("./src", import.meta.url)),
